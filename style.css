@@ -1,0 +1,38 @@
+html {
+	height:100%;
+
+	background: #666666;
+
+	background: -webkit-radial-gradient(center, ellipse cover,  #666666 0%,#333333 100%); /* Chrome10+,Safari5.1+ */
+	background: -ms-radial-gradient(center, ellipse cover,  #666666 0%,#333333 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  #666666 0%,#333333 100%); /* W3C */
+}
+body {
+
+	font-size:62.5%;
+	font-family: serif;
+}
+.container {
+	max-width:700px;
+	margin:42vh auto;
+	text-align:center;
+}
+h1 {
+	color:#FFF;
+	font-size:6em;
+	display:inline-block;
+	margin:0;
+	-webkit-filter: drop-shadow(1px 0px 2px black);
+	filter: drop-shadow(1px 0px 2px black);
+}
+.sparkle {
+	position:absolute;
+}
+.small-sparkle1 {
+	-webkit-transform:scale(0.7);
+	transform:scale(0.7);
+}
+.small-sparkle2 {
+	-webkit-transform:scale(0.6);
+	transform:scale(0.6);
+}

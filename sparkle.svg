@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="35px"
+	 height="35px" viewBox="0 0 35 35" enable-background="new 0 0 35 35" xml:space="preserve">
+
+<g id="Layer_3">
+
+	<g id="sparkle">
+		<radialGradient id="SVGID_2_" cx="16.8125" cy="17.9375" r="10" gradientUnits="userSpaceOnUse">
+			<stop  offset="0" style="stop-color:#FFFFFF"/>
+			<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+		</radialGradient>
+		<radialGradient id="SVGID_1_" cx="16.8125" cy="17.9375" r="5.9121" gradientUnits="userSpaceOnUse">
+			<stop  offset="0" style="stop-color:#FFFFFF"/>
+			<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+		</radialGradient>
+		<circle fill="url(#SVGID_2_)" opacity="0.5" cx="16.812" cy="17.938" r="10" />
+		<circle fill="url(#SVGID_1_)" cx="16.812" cy="17.938" r="5.912"/>
+		<radialGradient id="SVGID_2_" cx="16.8125" cy="17.9375" r="15.6748" gradientUnits="userSpaceOnUse">
+			<stop  offset="0" style="stop-color:#FFFFFF"/>
+			<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+		</radialGradient>
+		<path fill="url(#SVGID_2_)" d="M32.487,17.938C14.2,16.495,15.37,15.325,16.812,33.612c1.442-18.287,2.612-17.117-15.675-15.675
+			c18.287,1.443,17.117,2.612,15.675-15.675C15.37,20.55,14.2,19.381,32.487,17.938z"/>
+		
+			<radialGradient id="SVGID_3_" cx="16.8125" cy="17.9375" r="6.3594" gradientTransform="matrix(0.766 -0.6428 0.6428 0.766 -7.5967 15.0034)" gradientUnits="userSpaceOnUse">
+			<stop  offset="0" style="stop-color:#FFFFFF"/>
+			<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+		</radialGradient>
+		<path fill="url(#SVGID_3_)" d="M21.684,13.85c-4.293,3.975-4.322,4.3-0.783,8.959c-3.975-4.293-4.3-4.321-8.959-0.783
+			c4.293-3.975,4.322-4.3,0.784-8.959C16.699,17.359,17.024,17.388,21.684,13.85z"/>
+		<animate 
+		xlink:href="#sparkle"
+		attributeName="opacity"
+		from="1"
+		to="0" 
+		dur="2s"
+		begin="5s"
+		fill="freeze" />
+		<animateTransform
+		xlink:href="#sparkle"
+		attributeName="transform"
+		type="rotate"
+		from="0 16.8125 17.9375"
+		to="360 16.8125 17.9375" 
+		dur="5s"
+		begin="0s"
+		additive="sum"
+		fill="freeze"
+		repeatCount="indefinite" />
+	</g>
+</g>
+</svg>
